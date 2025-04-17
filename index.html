@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Bas Volley Game Cursus</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; background-color: #f4f4f4; }
+        h1, h2, h3 { color: #2c3e50; }
+        code { background-color: #eef; padding: 0.3em 0.6em; display: block; white-space: pre-wrap; margin: 1em 0; }
+        .task { margin: 0.6em 0; }
+        .task input { margin-right: 0.6em; }
+        .highlight { background: #e3f2fd; border-left: 4px solid #2196f3; padding: 1em; margin: 1.5em 0; }
+        .screenshot img { max-width: 100%; border: 1px solid #ccc; margin-top: 0.5em; }
+    </style>
+</head>
+<body>
+    <h1>Cursus Game Development met C# voor Bas</h1>
+
+    <h2>Hoofdstuk 1: Je computer klaarzetten</h2>
+    <div class="highlight">🎯 Doel: Alles klaarzetten om C# programma’s te maken.</div>
+
+    <div class="task"><input type="checkbox"> Ga naar <a href="https://dotnet.microsoft.com/en-us/download/dotnet/7.0" target="_blank">.NET SDK 7.0</a> en download de installer</div>
+    <div class="screenshot">
+        <strong>Screenshot:</strong><br>
+        <img src="images/dotnet_download.png" alt="Download .NET SDK">
+    </div>
+
+    <div class="task"><input type="checkbox"> Installeer Visual Studio Code via <a href="https://code.visualstudio.com/" target="_blank">de officiële site</a></div>
+    <div class="task"><input type="checkbox"> Maak een map aan: <code>C:\CSharpGames</code></div>
+
+    <div class="task"><input type="checkbox"> Open de terminal in VS Code</div>
+    <div class="screenshot">
+        <strong>Screenshot:</strong><br>
+        <img src="images/vscode_terminal.png" alt="VS Code terminal">
+    </div>
+
+    <div class="task"><input type="checkbox"> Typ in de terminal: <code>dotnet --version</code></div>
+
+    <div class="task"><input type="checkbox"> Installeer de C# extensie</div>
+    <div class="screenshot">
+        <strong>Screenshot:</strong><br>
+        <img src="images/vscode_csharp.png" alt="C# extensie">
+    </div>
+
+    <div class="highlight">🧠 Leerdoel: Je weet hoe je je computer instelt om te programmeren in C#.</div>
+
+    <h2>Hoofdstuk 2: Je eerste programma</h2>
+    <div class="highlight">🎯 Doel: Je leert wat code is en hoe je het laat uitvoeren.</div>
+
+    <div class="task"><input type="checkbox"> Typ deze commando's in de terminal:</div>
+    <code>
+dotnet new console -n HalloBas
+cd HalloBas
+code .
+    </code>
+
+    <div class="task"><input type="checkbox"> Open het bestand <code>Program.cs</code></div>
+    <div class="task"><input type="checkbox"> Bekijk deze code:</div>
+    <code>Console.WriteLine("Hello, World!");</code>
+
+    <div class="task"><input type="checkbox"> Voer het programma uit met <code>dotnet run</code></div>
+    <div class="highlight">✏️ Oefening: Pas de boodschap aan naar <code>Hello Bas, veel succes met je game!</code></div>
+</body>
+</html>
